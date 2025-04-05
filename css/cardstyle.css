@@ -1,0 +1,25 @@
+.card
+{
+    width: 1000px;
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgba(179, 179, 179, 0.884);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.card-body
+{
+    width: 150px;
+    height: auto;
+}
+.card-footer
+{
+    width: 800px;
+    height: auto;
+    margin-left: 40px;
+}
+.image
+{
+    max-width: 100%;
+}

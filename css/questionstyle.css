@@ -1,0 +1,66 @@
+.button
+{
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+}
+.possitive-feedback-buttons, .negative-feedback-buttons
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.possitive-feedback-buttons .button
+{
+    background-color: rgb(32, 122, 110);
+    color: white;
+}
+.negative-feedback-buttons .button
+{
+    background-color: rgb(223, 180, 63);
+    color: rgb(0, 0, 0);
+}
+.possitive-feedback-buttons .button:hover
+{
+    background-color: rgba(26, 110, 99, 0.95);
+    transition: 0.1s;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.negative-feedback-buttons .button:hover
+{
+    background-color: rgb(212, 171, 56, 0.95);
+    transition: 0.1s;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.selected
+{
+    border: 3px solid rgb(75, 15, 185);
+}
+
+.next
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 20px;
+    width: 100%;
+}
+.btnnext
+{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(43, 99, 182);
+    color: white;
+    width: 100px;
+    height: 30px;
+} 
+.btnnext:hover
+{
+    background-color: rgba(43, 99, 182, 0.95);
+    transition: 0.1s;
+} 
